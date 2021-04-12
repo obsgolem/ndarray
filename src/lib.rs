@@ -9,6 +9,7 @@
 #![doc(html_root_url = "https://docs.rs/ndarray/0.15/")]
 #![doc(html_logo_url = "https://rust-ndarray.github.io/images/rust-ndarray_logo.svg")]
 #![allow(
+    clippy::redundant_pattern_matching, // if let is sometimes good style
     clippy::many_single_char_names,
     clippy::deref_addrof,
     clippy::unreadable_literal,
