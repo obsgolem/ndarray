@@ -10,7 +10,7 @@
 mod macros;
 
 mod axis;
-mod base;
+pub(crate) mod base;
 mod chunks;
 mod into_iter;
 pub mod iter;
